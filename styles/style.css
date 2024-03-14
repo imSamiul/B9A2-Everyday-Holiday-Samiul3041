@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+
+  font-family: "Mulish", sans-serif;
+}
+/* --------- Navbar Section ---------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 52px auto 0;
+}
+.title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.title > h1 {
+  color: #131318;
+
+  font-size: 36px;
+
+  font-weight: 800;
+}
+.title > h1 > span {
+  color: #ff5400;
+}
+.nav-items {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+
+  padding: 10px 0px;
+  justify-content: center;
+}
+.nav-items .item {
+  list-style: none;
+
+  text-align: center;
+  font-size: 18px;
+  color: #424247;
+
+  font-weight: 400;
+}
+.nav-items .item:first-child {
+  color: #ff5400;
+
+  font-weight: 700;
+}
