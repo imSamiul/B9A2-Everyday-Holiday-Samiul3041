@@ -4,11 +4,16 @@
   font-family: "Mulish", sans-serif;
 }
 /* --------- Navbar Section ---------- */
+
 nav {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 52px auto 0;
+  align-items: center;
+}
+.fa-solid.fa-bars.fa-lg {
+  display: none;
 }
 .title {
   display: flex;
@@ -29,10 +34,11 @@ nav {
 .title > h1 > span {
   color: #ff5400;
 }
+
 .nav-items {
   display: flex;
   gap: 44px;
-  align-items: center;
+  /* align-items: center; */
 
   padding: 10px 0px;
   justify-content: center;
@@ -51,3 +57,26 @@ nav {
 
   font-weight: 700;
 }
+
+@media screen and (max-width: 600px) {
+  .nav-items {
+    display: none;
+  }
+  .title > h1 {
+    font-size: 1.34rem;
+  }
+  .fa-solid.fa-bars.fa-lg {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
+
+/* @media screen and (min-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 52px auto 0;
+    background-color: #424247;
+  }
+} */
