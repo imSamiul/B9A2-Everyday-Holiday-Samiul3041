@@ -58,6 +58,73 @@ nav {
   font-weight: 700;
 }
 
+/* ------- main section ------- */
+main {
+  width: 80%;
+  margin: 49px auto 0;
+}
+
+/* --------- Explore Travel Section ------ */
+
+.explore-travel {
+  height: 500px;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group 13 (1) (1).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-travel-heading {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.explore-travel-paragraph {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 676px;
+  margin: 24px auto 48px;
+}
+.search-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+}
+input,
+select {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  color: rgba(19, 19, 24, 0.5);
+}
+.find-now-btn {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* ------- media queries ------- */
+
 @media screen and (max-width: 600px) {
   .nav-items {
     display: none;
