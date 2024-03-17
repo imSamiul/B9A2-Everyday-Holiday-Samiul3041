@@ -86,6 +86,7 @@ main {
   background-size: 100% 100%;
 
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 .explore-travel-heading {
   color: #fff;
@@ -130,6 +131,48 @@ select {
   gap: 8px;
 }
 
+/* -------Our Popular Tours Section------ */
+.popular-tours {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap-reverse;
+}
+
+.tour-description {
+  color: rgba(19, 19, 24, 0.7);
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  flex: 1;
+  width: 50%;
+}
+.tour-description-heading {
+  font-size: 2.5rem;
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.tour-description p {
+  margin: 24px 0px;
+}
+.tour-photo {
+  flex: 1;
+  width: 50%;
+  text-align: right;
+}
+
+.read-more-btn {
+  padding: 14px 35px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #fff;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+}
+
 /* ------- media queries ------- */
 
 @media screen and (max-width: 600px) {
@@ -170,6 +213,26 @@ select {
   }
   .find-now-btn {
     padding: 16px;
+  }
+  .popular-tours {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .tour-description {
+    width: 100%;
+  }
+  .tour-description-heading {
+    font-size: 1.25rem;
+  }
+  .tour-description p,
+  li {
+    font-size: 14px;
+  }
+  .tour-photo {
+    width: 100%;
+  }
+  .tour-photo img {
+    width: 100%;
   }
 }
 
