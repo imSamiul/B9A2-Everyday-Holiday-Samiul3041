@@ -333,8 +333,25 @@ select {
   .tour-photo img {
     width: 100%;
   }
-}
 
+  /* ---------- Choose your destination Section--------- */
+  .choose-your-destination {
+    margin-top: 24px;
+  }
+  .choose-your-destination-heading {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+  .choose-your-destination-description {
+    font-size: 0.875rem;
+    width: 90%;
+    line-height: 24px; /* 171.429% */
+  }
+  .destination-place-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
 /* @media screen and (min-width: 992px) {
   nav {
     display: flex;
@@ -343,4 +360,4 @@ select {
     margin: 52px auto 0;
     background-color: #424247;
   }
-} */
+}  */
