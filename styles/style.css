@@ -150,7 +150,6 @@ select {
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  flex-wrap: wrap-reverse;
 }
 
 .tour-description {
@@ -320,7 +319,7 @@ select {
   }
   /* ----------- Our Popular Tours Section--------? */
   .popular-tours {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 32px;
   }
   .tour-description {
