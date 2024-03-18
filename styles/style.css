@@ -172,6 +172,103 @@ select {
   background: #ff5400;
   border: none;
 }
+/* ---------- Choose your destination Section--------- */
+.choose-your-destination {
+  margin-top: 100px;
+  text-align: center;
+}
+.choose-your-destination-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.choose-your-destination-description {
+  color: rgba(19, 19, 24, 0.7);
+  line-height: 26px; /* 162.5% */
+  margin: 0 auto 48px;
+  width: 80%;
+}
+.destination-place-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.place {
+  height: 286px;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+.maldives {
+  flex-grow: 1;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 5.png") lightgray 50% / cover no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+.indonesia {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 8.png") lightgray 50% / cover no-repeat;
+  flex-grow: 1;
+}
+.sri-lanka {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 6.png") lightgray 50% / cover no-repeat;
+  flex-grow: 2;
+}
+.north-america {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 7.png") lightgray 50% / cover no-repeat;
+  flex-grow: 3;
+}
+.kashmir {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 9.png") lightgray 50% / cover no-repeat;
+  flex-grow: 1;
+}
+.bangladesh {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 11.png") lightgray 50% / cover no-repeat;
+  flex-grow: 1;
+}
+.bandarban {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 10.png") lightgray 50% / cover no-repeat;
+  flex-grow: 2;
+}
 
 /* ------- media queries ------- */
 
@@ -192,6 +289,7 @@ select {
     display: block;
     font-size: 1.5rem;
   }
+  /* ---------- Explore Your Travel Section---------  */
   .explore-travel {
     padding: 32px 0px;
     background-position: center center;
@@ -214,6 +312,7 @@ select {
   .find-now-btn {
     padding: 16px;
   }
+  /* ----------- Our Popular Tours Section--------? */
   .popular-tours {
     flex-direction: column;
     gap: 32px;
