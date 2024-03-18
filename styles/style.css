@@ -159,16 +159,15 @@ select {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
-  flex: 1;
-  width: 50%;
+  flex-grow: 1;
 }
 
 .tour-description p {
   margin: 24px 0px;
 }
 .tour-photo {
-  flex: 1;
-  width: 50%;
+  flex-grow: 1;
+
   text-align: right;
 }
 
