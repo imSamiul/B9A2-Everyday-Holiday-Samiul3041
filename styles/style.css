@@ -398,6 +398,26 @@ select {
     flex-direction: column;
     gap: 16px;
   }
+
+  /* ----------- Why Choose Us section---------- */
+
+  .why-choose-us {
+    margin-top: 24px;
+  }
+  .options-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .option {
+    padding: 32px;
+  }
+  .option h3 {
+    font-size: 1.25rem;
+    margin: 16px 0;
+  }
+  .option p {
+    font-size: 0.875rem;
+  }
 }
 /* @media screen and (min-width: 992px) {
   nav {
