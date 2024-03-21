@@ -320,6 +320,79 @@ select {
   background: rgba(233, 68, 68, 0.05);
 }
 
+/* --------deals and discount section-------- */
+
+.deals-discounts {
+  margin-top: 100px;
+  text-align: center;
+}
+.deal {
+  border-radius: 16px;
+  padding: 56px 56px;
+}
+.deal-1 {
+  background: url("../Images/Group\ 39.png") lightgray 50% / cover no-repeat;
+  text-align: left;
+}
+.deal-details {
+  width: 40%;
+  padding: 50px;
+  border-radius: 16px;
+  /* border: 2px solid #fff; */
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+
+  margin-left: auto;
+}
+.tour-package {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+.tour-package-option {
+  display: flex;
+  gap: 8px;
+  color: #5a5a5d;
+  font-weight: 400;
+  line-height: normal;
+}
+.tour-package-option > i {
+  color: rgba(255, 84, 0, 1);
+}
+.package-name {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.package-description {
+  color: #5a5a5d;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 16px;
+}
+.package-price {
+  color: #ff5400;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.package-book-btn {
+  padding: 14px 24px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+}
+
 /* ------- media queries ------- */
 
 @media screen and (max-width: 600px) {
@@ -417,6 +490,42 @@ select {
   }
   .option p {
     font-size: 0.875rem;
+  }
+
+  /* --------deals and discount section--------  */
+  .deals-discounts {
+    margin-top: 24px;
+  }
+  .deal {
+    padding: 16px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 187px;
+  }
+  .deal-details {
+    width: 90%;
+
+    padding: 25px;
+  }
+  .tour-package {
+    flex-wrap: wrap;
+  }
+  .package-name {
+    font-size: 1.25rem;
+  }
+  .package-description {
+    font-size: 0.875rem;
+  }
+  .package-price {
+    font-size: 1rem;
+  }
+  .package-book-btn {
+    padding: 8px 20px;
+
+    font-size: 1.125rem;
+    font-weight: 700;
   }
 }
 /* @media screen and (min-width: 992px) {
