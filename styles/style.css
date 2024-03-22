@@ -403,6 +403,19 @@ select {
   font-weight: 800;
   line-height: normal;
 }
+.see-all-discounts-btn {
+  border-radius: 8px;
+  background: #ff5400;
+
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 14px 22px;
+  border: none;
+  margin-top: 24px;
+}
 
 /* ------- media queries ------- */
 
@@ -537,6 +550,9 @@ select {
 
     font-size: 1.125rem;
     font-weight: 700;
+  }
+  .see-all-discounts-btn {
+    display: none;
   }
 }
 /* @media screen and (min-width: 992px) {
