@@ -329,8 +329,17 @@ select {
 .deal {
   border-radius: 16px;
   padding: 56px 56px;
+  margin-bottom: 24px;
 }
 .deal-1 {
+  background: url("../Images/Group\ 39.png") lightgray 50% / cover no-repeat;
+  text-align: left;
+}
+.deal-2 {
+  background: url("../Images/Group\ 40.png") lightgray 50% / cover no-repeat;
+  text-align: left;
+}
+.deal-3 {
   background: url("../Images/Group\ 39.png") lightgray 50% / cover no-repeat;
   text-align: left;
 }
@@ -341,9 +350,11 @@ select {
   /* border: 2px solid #fff; */
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
-
+}
+.deal-details-right {
   margin-left: auto;
 }
+
 .tour-package {
   display: flex;
   gap: 24px;
@@ -376,7 +387,7 @@ select {
 }
 .package-price {
   color: #ff5400;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
