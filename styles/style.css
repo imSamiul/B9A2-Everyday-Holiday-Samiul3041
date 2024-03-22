@@ -470,9 +470,10 @@ select {
 .newsletter {
   margin-top: 100px;
   display: flex;
+  gap: 24px;
 }
 .newsletter-input-field {
-  flex: 1;
+  flex: 2;
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -527,6 +528,36 @@ select {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+.newsletter-image {
+  flex: 3;
+  border-radius: 16px;
+  background: url("../Images/Rectangle\ 8\ \(1\).png") lightgray 50% / cover
+    no-repeat;
+  position: relative;
+}
+.travel-save {
+  border-radius: 16px;
+  background: #ff5400;
+  width: fit-content;
+  padding: 24px 30px;
+  text-align: center;
+  color: #fff;
+  line-height: normal;
+  font-style: normal;
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  transform: rotate(-19.628deg);
+}
+.travel-save > p {
+  font-size: 1.5rem;
+
+  font-weight: 400;
+}
+.travel-save > h2 {
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 /* ------- media queries ------- */
