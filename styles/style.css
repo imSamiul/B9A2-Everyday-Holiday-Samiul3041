@@ -603,6 +603,70 @@ select {
   color: #5a5a5d;
   margin-top: 16px;
 }
+/* -------- Footer Section-------- */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 336px;
+}
+.footer-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.footer-logo {
+  width: 40px;
+  height: 40px;
+}
+.footer-title > h1 {
+  color: #131318;
+
+  font-size: 2rem;
+
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-title > h1 > span {
+  color: #ff5400;
+}
+.footer-description {
+  text-align: center;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 32px;
+}
+.footer-social-icon {
+  display: flex;
+  gap: 24px;
+}
+.footer-social-icon i {
+  font-size: 1.5rem;
+  color: #131318;
+}
+.footer-hr-line {
+  background-color: rgba(19, 19, 24, 0.1);
+  height: 1px;
+  width: 100%;
+  margin: 50px 0;
+}
+.footer-copyright {
+  color: #131318;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
 
 /* ------- media queries ------- */
 
@@ -791,6 +855,25 @@ select {
   }
   .testimonials-container {
     grid-template-columns: 1fr;
+  }
+
+  /* -------- Footer Section-------- */
+
+  footer {
+    margin-top: 24px;
+    padding: 33px 44px;
+  }
+  .footer-title > h1 {
+    font-size: 1.25rem;
+  }
+  .footer-description {
+    font-size: 0.875rem;
+
+    line-height: 24px; /* 171.429% */
+    margin-bottom: 16px;
+  }
+  .footer-hr-line {
+    margin: 24px 0;
   }
 }
 /* @media screen and (min-width: 992px) {
